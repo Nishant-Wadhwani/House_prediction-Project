@@ -41,19 +41,19 @@ The data contains the following columns:
 
 
 Results Obtained for DataSet1:-
-Price Predicted for a new household by Deep-Learning Model:- 287608.62$
+Price Predicted for a new household by Deep-Learning Model:- 240484.28$
 Price Predicted for a new household by Linear Regression Machine-Learning Model:- 251823.61285049$
 True-Price of a Household:- 221900.0000$
 
-Explained_variance_score by Deep-Learning Model:- 0.7986445293855888
-Mean_absolute_error by Deep-Learning Model:- 103250.24837902682
-Rootmean_squared_errorby Deep-Learning Model:- 166651.8092635992
+Explained_variance_score by Deep-Learning Model:- 0.7311228904420886
+Mean_absolute_error by Deep-Learning Model:- 120495.98588083526
+Rootmean_squared_errorby Deep-Learning Model:- 203279.77519179252
 
 Explained_variance_score by Linear Regression Machine-Learning Model:- 0.6951152537006628
 Mean_absolute_error by by Linear Regression Machine-Learning Model:- 123998.57212893506
 Rootmean_squared_errorby by Linear Regression Machine-Learning Model:- 201080.55278529544
 
-So,the overall performance of deep-learning model looks better since it's variance score is close to 0.8 while variance score of linear regression model is 0.7 and that is because of the hidden-layers role,adam optimizer in order to update weights and learning rate. But the true price is nearer to the value predicted by machine learning model, so it depends on the domain knowledge and context of the problem to decide which algorithm is better.
+So,the overall performance of deep-learning model looks better since it's variance score is close to 0.73 while variance score of linear regression model is 0.7 and that is because of the hidden-layers role,adam optimizer in order to update weights and learning rate. Also losses error function is less in case of deep-learning model which makes it suitable for use. Keep in mind we have to do proper scaling of features along with drop-out and early stage so as to avoid data-leakage and over-fitting in our result.
 
 
 

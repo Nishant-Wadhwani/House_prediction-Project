@@ -38,3 +38,36 @@ The data contains the following columns:
 'Area Population': Population of city house is located in
 'Price': Price that the house sold at
 'Address': Address for the house
+
+
+Results Obtained for DataSet1:-
+Price Predicted for a new household by Deep-Learning Model:- 287608.62$
+Price Predicted for a new household by Linear Regression Machine-Learning Model:- 251823.61285049$
+True-Price of a Household:- 221900.0000$
+
+Explained_variance_score by Deep-Learning Model:- 0.7986445293855888
+Mean_absolute_error by Deep-Learning Model:- 103250.24837902682
+Rootmean_squared_errorby Deep-Learning Model:- 166651.8092635992
+
+Explained_variance_score by Linear Regression Machine-Learning Model:- 0.6951152537006628
+Mean_absolute_error by by Linear Regression Machine-Learning Model:- 123998.57212893506
+Rootmean_squared_errorby by Linear Regression Machine-Learning Model:- 201080.55278529544
+
+So,the overall performance of deep-learning model looks better since it's variance score is close to 0.8 while variance score of linear regression model is 0.7 and that is because of the hidden-layers role,adam optimizer in order to update weights and learning rate. But the true price is nearer to the value predicted by machine learning model, so it depends on the domain knowledge and context of the problem to decide which algorithm is better.
+
+
+
+Results Obtained for DataSet2:-
+Price Predicted for a new household by Deep-Learning Model:- 1258693.8$
+Price Predicted for a new household by Linear Regression Machine-Learning Model:- 1225941.63882637$
+True-Price of a Household:- 1059033.5578701235$
+
+Explained_variance_score by Deep-Learning Model:- 0.8736528317018113
+Mean_absolute_error by Deep-Learning Model:- 101834.50999175698
+Rootmean_squared_errorby Deep-Learning Model:- 127143.77013354731
+
+Explained_variance_score by Linear Regression Machine-Learning Model:- 0.9178179926151777
+Mean_absolute_error by by Linear Regression Machine-Learning Model:- 82288.22251914963 
+Rootmean_squared_errorby by Linear Regression Machine-Learning Model:- 102278.82922291271
+
+So, the overall performance of the linear regression model looks better since its variance score is close to 0.92 while the variance score of the deep-learning model is 0.87 and that is because of the number of features involved in deciding the price of a house is less as compared to the previous dataset. And the true price is nearer to both the values predicted by the following models, so in this particular case, one can use any of the models.

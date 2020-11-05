@@ -1,9 +1,9 @@
 # House_prediction-Project
 This project consists of two approaches to predict the price of a particular household in the US, first one is using the Linear Regression Machine-Learning model while another includes a deep-learning neural network model. We have taken two datasets for consideration so that we can compare the two models properly and able to perform descriptive and inferential analysis. 
 One of the datasets contains house sale prices for King County, which includes Seattle. It incorporates homes sold between May 2014 and May 2015. It's an amazing dataset for evaluating simple regression models with over 20 features in total. For this particular dataset, a decent amount of exploratory data analysis and data pre-processing needs to be done, along with feature selection engineering. While for the second dataset with information about a bunch of houses in regions of the United States, this contains five features, so a little amount of exploratory data analysis and pre-processing would be suitable to work with this kind of data. 
+While working with the deep-learning model, the number of neurons can be equal to the number of features involved after feature engineering and hidden-layers can be used according to your choice. For the activation function, we are using 'mse' and optimizer as adam. 
 
-After performing descriptive statistics, predictive and inferential analysis, we can compare these two by measuring error metrics that includes mean absolute error, mean squared error and root mean squared error. 
-We will also predict a price for new data using these two following models.
+After performing descriptive statistics, predictive and inferential analysis, we can compare these two by measuring error metrics that include mean absolute error, mean squared error and root mean squared error.  We will also predict a price for new data using these two following models so that one can get the idea of deviation from the true price.
 
 Features for DataSet 1:-
 Feature Columns

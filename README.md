@@ -1,7 +1,7 @@
 # House_prediction-Project
 This project consists of two approaches to predict the price of a particular household in the US, first one is using the Linear Regression Machine-Learning model while another includes a deep-learning neural network model. We have taken two datasets for consideration so that we can compare the two models properly and able to perform descriptive and inferential analysis. 
 One of the datasets contains house sale prices for King County, which includes Seattle. It incorporates homes sold between May 2014 and May 2015. It's an amazing dataset for evaluating simple regression models with over 20 features in total. For this particular dataset, a decent amount of exploratory data analysis and data pre-processing needs to be done, along with feature selection engineering. While for the second dataset with information about a bunch of houses in regions of the United States, this contains five features, so a little amount of exploratory data analysis and pre-processing would be suitable to work with this kind of data. 
-While working with the deep-learning model, the number of neurons can be equal to the number of features involved after feature engineering and hidden-layers can be used according to your choice. For the activation function, we are using 'mse' and optimizer as adam. 
+While working with the deep-learning model, the number of neurons can be equal to the number of features involved after feature engineering and hidden-layers can be used according to your choice. For the activation function, we are using 'relu', loss function as 'mse' and optimizer as adam. 
 
 After performing descriptive statistics, predictive and inferential analysis, we can compare these two by measuring error metrics that include mean absolute error, mean squared error and root mean squared error.  We will also predict a price for new data using these two following models so that one can get the idea of deviation from the true price.
 
@@ -53,7 +53,7 @@ Explained_variance_score by Linear Regression Machine-Learning Model:- 0.6951152
 Mean_absolute_error by by Linear Regression Machine-Learning Model:- 123998.57212893506
 Rootmean_squared_errorby by Linear Regression Machine-Learning Model:- 201080.55278529544
 
-So,the overall performance of deep-learning model looks better since it's variance score is close to 0.73 while variance score of linear regression model is 0.7 and that is because of the hidden-layers role,adam optimizer in order to update weights and learning rate. Also losses error function is less in case of deep-learning model which makes it suitable for use. Keep in mind we have to do proper scaling of features along with drop-out and early stage so as to avoid data-leakage and over-fitting in our result.
+So,the overall performance of deep-learning model looks better since it's variance score is close to 0.73 while variance score of linear regression model is 0.7 and that is because of the hidden-layers role,adam optimizer in order to update weights and learning rate. Also losses error function is less in case of deep-learning model which makes it suitable for use. Keep in mind we have to do proper scaling of features along with drop-out and early stage so as to avoid data-leakage and over-fitting in our result.For verification, we can also R2_score.
 
 
 
@@ -70,4 +70,4 @@ Explained_variance_score by Linear Regression Machine-Learning Model:- 0.9178179
 Mean_absolute_error by by Linear Regression Machine-Learning Model:- 82288.22251914963 
 Rootmean_squared_errorby by Linear Regression Machine-Learning Model:- 102278.82922291271
 
-So, the overall performance of the linear regression model looks better since its variance score is close to 0.92 while the variance score of the deep-learning model is 0.87 and that is because of the number of features involved in deciding the price of a house is less as compared to the previous dataset. And the true price is nearer to both the values predicted by the following models, so in this particular case, one can use any of the models.
+So, the overall performance of the linear regression model looks better since its variance score is close to 0.92 while the variance score of the deep-learning model is 0.87 and that is because of the number of features involved in deciding the price of a house is less as compared to the previous dataset. And the true price is nearer to both the values predicted by the following models, so in this particular case, one can use any of the models. For verification, we can also R2_score.
